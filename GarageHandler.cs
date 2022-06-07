@@ -10,10 +10,16 @@ namespace Garage1._0
     {
         // kapacitet(maxAntal parkeringsplatser)
     }
-    IUI
+    class IUI
         {
-            Console.WriteLine("Hur många fordon är i Garaget Just Nu?")
+            Console.WriteLine("Hur många fordon är i Garaget Just Nu?");
             Console.ReadLine();
         }
+
+    private void TakeParkingLot()
+    {
+
+    }
+
 
 }
