@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Garage1._0
 {
+
+    // en klass som hanterar funktionaliteten som gränssnittet behöver ha tillgång till
     internal class GarageHandler
     {
         // kapacitet(maxAntal parkeringsplatser)

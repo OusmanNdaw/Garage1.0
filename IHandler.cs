@@ -10,15 +10,17 @@ namespace Garage1._0
     {
         private listaFordon()
         {
-
+            Console.WriteLine("Följande är samtliga fordon som är in i Garaget Just nu:");
+            Console.WriteLine();
         }
         private listaFordonsTyper()
         {
-
+            Console.WriteLine(Console.ReadLine());
         }
         private LäggaTillFordonUrGaraget()
         {
-
+            int AntalFordonIGaraget,
+               NuLägeAntalFordonIGaraget = AntalFordonIGaraget++;
         }
         private TaBortFordonUrGaraget()
         {
@@ -129,7 +131,7 @@ public class Example
              går vill användaren få veta varför.  
         */
 
-        if(Parking = success)
+        if( Parking = success )
 
             {
                 Console.WriteLine("Parking successful!");

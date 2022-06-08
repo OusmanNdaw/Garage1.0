@@ -8,9 +8,9 @@ namespace Garage1._0
 {
     internal class GarageRegister
     {
-
+        ParkingLot parkingLot = new parkinglot();
         RegistreraVehicle()
-        {
+        { 
          private string licensePlate;
 
         // skriva in registernummer;
