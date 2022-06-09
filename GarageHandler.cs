@@ -14,7 +14,9 @@ namespace Garage1._0
     }
     class IUI
         {
-            Console.WriteLine("Hur många fordon är i Garaget Just Nu?");
+            Console.WriteLine(//"Hur många fordon är i Garaget Just Nu?");
+             Count.Fordon();
+                );
             Console.ReadLine();
         }
 
