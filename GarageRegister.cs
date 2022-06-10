@@ -9,14 +9,15 @@ namespace Garage1._0
     internal class GarageRegister
     {
         string ParkingLot, LicensePlate;
-        ParkingLot ParkingLot = new Parkinglot();
+        var ParkingLot = new Parkinglot();
+        MaxParkingLot == 12;
 
-        // a number for the ParkingLot and a letter-number combination for the licenseplate
+        // a number (1 to MaxNumberParkingLot) for the ParkingLot and a letter-number combination for the licenseplate (ABC123 or(AbC234)
         RegistreraVehicle()
         {
             private string LicensePlate;
             Console.WriteLine("Please Register in your Licenseplate");
-            Console.WriteLine("It has to be a combination of 3 letters and 3 numbers like");
+            Console.WriteLine("It has to be a combination of 3 letters and 3 numbers like  (ABC123 or(AbC234)");
             Console.ReadLine();
 
         }
@@ -27,14 +28,17 @@ namespace Garage1._0
             int MaxNumberLicensePlate = 0;
             for (int i= 0; i < MaxNumberLicensePlate; i++))
             {
-                public long CountingCarsLINQ(CarsInfo file) => File.ReadLines(file.FullName).Count();
+                public long CountingCarsLINQ(CarsInfo file) => File.ReadLinesMaxNumberCars(file.FullName).Count();
                 Console.WriteLine(One more car);
                 count = count++;
                 MaxNumberLicensePlate++
 
         }   }
 
-        }
+    internal class CarsInfo
+    {
+    }
+}
 
 
         // skriva in registernummer;
