@@ -37,6 +37,10 @@ namespace Garage1._0
 
     internal class CarsInfo
     {
+        // Car Model;
+        // Car color;
+        // Car number of wheels;
+        // Car parking lot
     }
 }
 

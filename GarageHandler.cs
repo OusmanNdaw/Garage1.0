@@ -25,5 +25,8 @@ namespace Garage1._0
 
     }
 
+    // TODO: Print out actual number of cars in the Garage.
+    // TODO: Search function (both on Color and number of wheels
+
 
 }
