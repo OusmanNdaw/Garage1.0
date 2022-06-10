@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Garage1._0
+namespace Garage1.0
 {
     internal class IVehicle
     {

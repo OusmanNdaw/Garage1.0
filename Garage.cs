@@ -11,7 +11,7 @@ namespace Garage1.Vehicle
     class Garage
     {
         static void Main(string[] args)
-        {internal class Garage<T> where T : Garage, Open,String}
+        {internal class Garage<T> where T : Garage, Open };
              //{
 internal interface Open
     {
@@ -109,13 +109,13 @@ void DriveIn()
                 if (Open && // (fordon not stolen ))
     {
         DriveOut() = true;
-        exit();
+
 
     }
             }
 
             void driveAway()
             {
-
-            }
+                exit();
+}
 }

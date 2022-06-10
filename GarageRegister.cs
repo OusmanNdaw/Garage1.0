@@ -8,22 +8,48 @@ namespace Garage1._0
 {
     internal class GarageRegister
     {
-        ParkingLot parkingLot = new parkinglot();
+        string ParkingLot, LicensePlate;
+        ParkingLot ParkingLot = new Parkinglot();
+
+        // a number for the ParkingLot and a letter-number combination for the licenseplate
         RegistreraVehicle()
-        { 
-         private string licensePlate;
-
-        // skriva in registernummer;
-        // Skriva in car model   CarModel()
-        }
-        public string GetLicensePlate(string licensePlate)
         {
-            return licensePlate;
+            private string LicensePlate;
+            Console.WriteLine("Please Register in your Licenseplate");
+            Console.WriteLine("It has to be a combination of 3 letters and 3 numbers like");
+            Console.ReadLine();
+
+        }
+
+        private countingCars()
+        {
+            int count;
+            int MaxNumberLicensePlate = 0;
+            for (int i= 0; i < MaxNumberLicensePlate; i++))
+            {
+                public long CountingCarsLINQ(CarsInfo file) => File.ReadLines(file.FullName).Count();
+                Console.WriteLine(One more car);
+                count = count++;
+                MaxNumberLicensePlate++
+
+        }   }
+
+        }
+
+
+        // skriva in registernummer;
+        // Skriva in car model   CarModel()
+        }
+        public string GetLicensePlate(string LicensePlate)
+        {
+             for (int i = 0; i < MaxNumberOfCars;)
+             Console.ReadLine(LicensePlate);
+             return LicensePlate;
         }
 
         // skriva in registernummer;
         // Skriva in car model   CarModel()
-        public void SetregisterNummer(string value) => registerNummer1 = value;
+        public void SetregisterNummer(string value) => registerNummer = value;
 
     }
 
